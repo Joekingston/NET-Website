@@ -36,7 +36,9 @@
                     </div>
                 </div>
                 <div id="totalPrice2">Total Price: $<span id="totalPrice" >10.00</span></div>
-                <button type="button" id="btnMakeIt" onclick="submitOrder()">Make It!</button>
+                <div id="btnConfirm" ><asp:Button ID="btn" runat="server" Text="Make It!"
+                   PostBackUrl="Confirmation.aspx" /></div>
+
             </div>
         </div>
 <!--
@@ -50,6 +52,7 @@
 -->
         <br />
         <p id="livePreview" class="blinking">LIVE PREVIEW</p>
+        <br />
         <div id="pizza">
             <section class="green-pepper one"></section>
             <section class="green-pepper two"></section>
@@ -372,8 +375,24 @@
             }
         });
     });
+    function randomlyCheckBoxes() {
+        $('.cheeseDoubled').toggle(false);
+        $('.green-pepper').toggle(false);
+        $('.olive').toggle(false);
+        $('.mushroom').toggle(false);
+        $('.pep').toggle(false);
+        var checkboxIds = ["Pepperoni", "Mushrooms", "Olives", "Peppers", "DoubleCheese"];
+        var checkboxesToCheck = Math.floor(Math.random() * checkboxIds.length) + 1;
+        checkboxIds = checkboxIds.sort(() => Math.random() - 0.5);
+
+        for (var i = 0; i < checkboxesToCheck; i++) {
+            var checkboxId = checkboxIds[i];
+            document.getElementById(checkboxId).checked = true;
+        }
+        DynamicPrice();
+    }
     function submitOrder() {
-        
+        Response.Redirect("Confirmation.aspx");
         }
 </script>
 </asp:Content>
