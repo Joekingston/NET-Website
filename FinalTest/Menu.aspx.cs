@@ -13,7 +13,6 @@ namespace Final
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Log("Page_Load");
             if (Request.HttpMethod == "POST")
             {
                 using (StreamReader reader = new StreamReader(Request.InputStream))
