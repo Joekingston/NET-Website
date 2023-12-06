@@ -2,7 +2,8 @@
     background-color: lightgray;
     font-family: Arial, sans-serif;
     margin: auto;
-    width:80%;
+    width: 80%;
+    min-width: 800px; /* Suppose you want minimum width of 1000px */
 }
 
 .header {
@@ -23,25 +24,56 @@
     text-align:center;
 }
 /*---Page1 CSS---*/
+#FriendlyTitle{
+    font-family: 'Lucida Handwriting';
+}
 .P1Title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight:600;
 }
-.UserInput {
 
+    .P1Title::before {
+        content: 'Welcome to the family!';
+        display: block;
+        height: 20px;
+        border-bottom: 1px dotted grey;
+        margin-bottom: 5px;
+    }
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.UserInput {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+/*.UserInput {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
 .EnterName {
+
     margin-top: 5px;
-    width: 25%;
+    width: 52%;
 }
 .SubmitName {
     margin-top: 5px;
-    width:25%;
+    width:52%;
     font-size: large;
     padding:6px 9px 4px 6px;
 }
