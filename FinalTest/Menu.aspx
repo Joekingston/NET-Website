@@ -317,7 +317,7 @@
         }, 1000);
     });
     // Name    : DynamicPrice
-    // Purpose : Gets the checkbox information and send it to the server this will allow the server to get the price.
+    // Purpose : Gets the checkbox information and send it to the server in JSON this will allow the server to get the price.
     // Checks what items have been toggled, and toggles them on/off for the live preview. 
     // Inputs  : None
     // Returns : void
@@ -325,9 +325,9 @@
         var toppings = {
             Pepperoni: $("#Pepperoni").prop("checked"),
             Mushrooms: $("#Mushrooms").prop("checked"),
-            Olives: $("#Olives").prop("checked"),
-            Peppers: $("#Peppers").prop("checked"),
-            DoubleCheese: $("#DoubleCheese").prop("checked")
+            'Green Olives': $("#Olives").prop("checked"),
+            'Green Peppers': $("#Peppers").prop("checked"),
+            'Double Cheese': $("#DoubleCheese").prop("checked")
         };
         if (toppings.Pepperoni) {
 

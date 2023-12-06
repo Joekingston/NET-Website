@@ -17,6 +17,7 @@ namespace Final
             {
                 using (StreamReader reader = new StreamReader(Request.InputStream))
                 {
+
                     string jsonString = reader.ReadToEnd();
                     JObject toppingsData = JObject.Parse(jsonString);
 
@@ -24,9 +25,9 @@ namespace Final
 
                     bool pepperoniSelected = toppingsData.GetValue("Pepperoni", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
                     bool mushroomsSelected = toppingsData.GetValue("Mushrooms", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
-                    bool olivesSelected = toppingsData.GetValue("Olives", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
-                    bool peppersSelected = toppingsData.GetValue("Peppers", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
-                    bool doubleCheeseSelected = toppingsData.GetValue("DoubleCheese", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
+                    bool olivesSelected = toppingsData.GetValue("Green Olives", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
+                    bool peppersSelected = toppingsData.GetValue("Green Peppers", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
+                    bool doubleCheeseSelected = toppingsData.GetValue("Double Cheese", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
 
                     HandleToppings(pepperoniSelected, mushroomsSelected, olivesSelected, peppersSelected, doubleCheeseSelected);
 

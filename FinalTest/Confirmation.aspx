@@ -31,7 +31,7 @@
 
             $.each(toppingsData, function (topping, isSelected) {
                 if (isSelected) {
-                    orderDetailsHtml += '<div>' + topping;
+                     orderDetailsHtml += '<div>' + topping;
                 }
             });
 
