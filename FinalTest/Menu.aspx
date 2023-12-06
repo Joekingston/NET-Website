@@ -341,17 +341,17 @@
         } else {
             $('.mushroom').toggle(false);
         }
-        if (toppings.Olives) {
+        if (toppings['Green Olives']) {
             $('.olive').toggle(true);
         } else {
             $('.olive').toggle(false);
         }
-        if (toppings.Peppers) {
+        if (toppings['Green Peppers']) {
             $('.green-pepper').toggle(true);
         } else {
             $('.green-pepper').toggle(false);
         }
-        if (toppings.DoubleCheese) {
+        if (toppings['Double Cheese']) {
             $('.cheeseDoubled').toggle(true);
         } else {
             $('.cheeseDoubled').toggle(false);
