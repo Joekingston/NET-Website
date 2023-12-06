@@ -4,7 +4,7 @@
     <div class="content">
         <div class="Menu">
             <h2>Pizza Menu</h2>
-            <p>Ciao, <%= Session["userName"] %>!</p>
+            <h3>Ciao, <%= Session["userName"] %>!</h3>
             <p>At the SET Pizza Shop, you can only order one (1) large pizza with sauce and cheese.</p>
             <div>
                 <h3>Choose Toppings:</h3>

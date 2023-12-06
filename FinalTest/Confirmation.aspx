@@ -4,7 +4,8 @@
     <div class="content">
         <div class="Menu">
             <h2>Order Confirmation</h2>
-            <p>Ciao, <%= Session["userName"] %>!</p>
+            <h3>Ciao, <%= Session["userName"] %>!</h3>
+            <p>Please review your order and confirm everything is correct!</p>
             <div class="receipt">
                 <p>Your <strong>LARGE</strong> Pizza Contains:</p>
                 <div id="orderDetails">
