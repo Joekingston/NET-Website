@@ -37,11 +37,11 @@
 
 
 
-        function confirmOrder() {
+        //function confirmOrder() {
 
-        }
+        //}
 
-        function cancelOrder() {
-        }
+        //function cancelOrder() {
+        //}
     </script>
 </asp:Content>
