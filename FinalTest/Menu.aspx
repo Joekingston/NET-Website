@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div id="totalPrice2">Total Price: $<span id="totalPrice" >10.00</span></div>
-                <div id="btnConfirm" ><asp:Button ID="btn" runat="server" Text="Make It!"
+                <div id="btnMakeIt" ><asp:Button ID="btn" runat="server" Text="Make It!"
                    PostBackUrl="Confirmation.aspx" /></div>
 
             </div>

@@ -17,6 +17,8 @@ namespace Final
             {
                 using (StreamReader reader = new StreamReader(Request.InputStream))
                 {
+                    string test = "jason";
+                    Session["userName"] = test;
                     string jsonString = reader.ReadToEnd();
                     JObject toppingsData = JObject.Parse(jsonString);
 
