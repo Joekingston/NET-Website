@@ -7,6 +7,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="Menu" >
+        <h2>Don't be a Stranger! We're Family at SET Pizza! </h2>
         <div class="P1Title">
             <p>Please enter your first and last name</p>                                            <!-- Prompt the user for their name -->
         </div>
