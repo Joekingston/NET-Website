@@ -13,8 +13,10 @@
                 <div id="totalPrice2">Total Price: $<span id="totalPrice">10.00</span></div>
 
             </div>
-            <button type="button" id="btnCancel" onclick="cancelOrder()">CANCEL</button>
-            <button type="button" id="btnConfirm" onclick="confirmOrder()">CONFIRM</button>
+
+            <asp:Button id="btnCancel" runat="server" onclick="CancelOrder" Text="CANCEL"/>
+            <asp:Button id="btnConfirm" runat="server" onclick="ConfirmOrder" Text="CONFIRM"/>
+
 
         </div>
     </div>
@@ -22,7 +24,8 @@
     <script>
         $(function Start() {
             var toppingsData = <%= Session["ToppingsData"] %>;
-            $('#totalPrice').html(<%= Session["TotalPrice"] %>);
+            var totalPrice = <%= Session["TotalPrice"] %>
+            $('#totalPrice').html(totalPrice.toFixed(2));
         // adds each item to list
         var orderDetailsHtml = '';
 

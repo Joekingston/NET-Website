@@ -22,6 +22,29 @@
 .Menu {
     text-align:center;
 }
+/*---Page1 CSS---*/
+.P1Title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight:600;
+}
+.UserInput {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.EnterName {
+    margin-top: 5px;
+    width: 25%;
+}
+.SubmitName {
+    margin-top: 5px;
+    width:25%;
+    font-size: large;
+    padding:6px 9px 4px 6px;
+}
 /*---Page2 CSS---*/
 /*Position relative and z-index stop collision issues*/
 .checkbox-container > div {
