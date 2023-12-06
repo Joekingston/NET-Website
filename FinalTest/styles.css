@@ -124,27 +124,27 @@
         border-bottom: 1px dashed #000;
         margin-bottom: 10px;
     }
-#btnConfirm {
+.btnConfirm {
     padding: 10px;
     width: 150px;
 
     z-index: 1;
     margin-left: 3%;
 }
-    #btnConfirm:hover {
+    .btnConfirm:hover {
         background-color: limegreen;
     }
 
 
-#btnCancel {
+.btnCancel {
     z-index: 1;
     width: 150px;
     padding: 10px;
 }
-    #btnCancel:hover {
+    .btnCancel:hover {
         background-color: red;
     }
-/*--- Crust & cheese/sauce ---*/
+/*--- Pizza ---*/
 .crust {
     width: 700px;
     height: 700px;

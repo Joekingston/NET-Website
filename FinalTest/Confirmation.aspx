@@ -14,8 +14,8 @@
 
             </div>
 
-            <asp:Button id="btnCancel" runat="server" onclick="CancelOrder" Text="CANCEL"/>
-            <asp:Button id="btnConfirm" runat="server" onclick="ConfirmOrder" Text="CONFIRM"/>
+            <asp:Button CssClass="btnCancel" runat="server" onclick="CancelOrder" Text="CANCEL"/>
+            <asp:Button CssClass="btnConfirm" runat="server" onclick="ConfirmOrder" Text="CONFIRM"/>
 
 
         </div>
