@@ -7,7 +7,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="Menu" >
-        <h2 id="FriendlyTitle" >Don't be a Stranger! We're Family at SET Pizza! </h2>
+        <h2 id="FriendlyTitle">Don't be a Stranger! We're Family at SET Pizza! </h2>
             <div class="flex-container">
                 <div class="column">
                     <div class="P1Title">

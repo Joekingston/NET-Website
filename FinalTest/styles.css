@@ -905,3 +905,24 @@
         -o-transform: rotate(47deg);
         transform: rotate(47deg);
     }
+
+/*Page 4 Css*/
+.FinalPicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.FinalPage{
+    text-align: center;
+}
+
+#FinalOrderStatus{
+    font-family: 'Lucida Handwriting';
+    padding-top: 30px;
+}
+
+#FullNamePrompt {
+    font-family: 'Lucida Handwriting';
+}
