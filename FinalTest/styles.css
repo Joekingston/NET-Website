@@ -906,7 +906,7 @@
         transform: rotate(47deg);
     }
 
-/*Page 4 Css*/
+/*------ Page 4 Styling ------*/
 .FinalPicture {
     display: block;
     margin-left: auto;
@@ -921,8 +921,10 @@
 #FinalOrderStatus{
     font-family: 'Lucida Handwriting';
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 #FullNamePrompt {
     font-family: 'Lucida Handwriting';
+    padding-top: 30px;
 }

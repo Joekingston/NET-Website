@@ -9,7 +9,7 @@
 
     <div class="FinalPage">
 
-        <h1 ID="FullNamePrompt">Thank you, <%= Session["fullName"] %></h1>
+        <h1 ID="FullNamePrompt">Thank you, <%= Session["fullName"] %>!</h1>
         <p ID="FinalOrderStatus">Your order has been <%= Session["orderStatus"] %>!</p>
         <img src="EndPic.png" alt="FINAL PIZZA" id="FinalPicture"/>
 
