@@ -11,7 +11,7 @@ namespace FinalTest
 {
 
 
-    public partial class Page1
+    public partial class StartPage
     {
 
         /// <summary>

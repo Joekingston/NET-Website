@@ -1,4 +1,16 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Page1.aspx.cs" Inherits="FinalTest.Page1" %>
+﻿<%-- 
+FILE		    : StartPage.aspx
+PROJECT			: PROG 2001 - Final Exam Practical Component
+PROGRAMMERS		: Joey Kingston, Cody Glanville
+FIRST VERSION   : December 03, 2023
+DESCRIPTION		:
+	This file contains the HTML elements utilized in order to create our starting page for our final 
+    exam. This page is meant to mimic a web page that will take in customer's first and last name to use
+    for their order on the SET pizza ordering application. As such, after entering a valid username, the 
+    user will be redirected the pizza ordering menu. 
+--%>
+
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="StartPage.aspx.cs" Inherits="FinalTest.StartPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Main Landing Page (Username Entry)</title>

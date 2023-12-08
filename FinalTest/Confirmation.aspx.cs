@@ -17,13 +17,13 @@ namespace Final
         protected void CancelOrder(object sender, EventArgs e)
         {
             Session["orderStatus"] = "Cancelled";
-            Response.Redirect("./Page4.aspx");
+            Response.Redirect("./Finished.aspx");
         }
 
         protected void ConfirmOrder(object send, EventArgs e)
         {
             Session["orderStatus"] = "Confirmed";
-            Response.Redirect("./Page4.aspx");
+            Response.Redirect("./Finished.aspx");
         }
     }
 }

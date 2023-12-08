@@ -1,9 +1,16 @@
-﻿using Newtonsoft.Json;
+﻿/*
+* FILE				: Menu.aspx.cs
+* PROJECT			: PROG 2001 - Final Exam Practical
+* PROGRAMMERS		: Joey Kingston, Cody Glanville
+* FIRST VERSION		: December 3, 2023
+* DESCRIPTION		:
+*	This file contains 
+*/
+
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
-
 using System.IO;
-
 using System.Web.Services;
 
 
@@ -17,7 +24,6 @@ namespace Final
             {
                 using (StreamReader reader = new StreamReader(Request.InputStream))
                 {
-
                     string jsonString = reader.ReadToEnd();
                     JObject toppingsData = JObject.Parse(jsonString);
 
@@ -30,8 +36,6 @@ namespace Final
                     bool doubleCheeseSelected = toppingsData.GetValue("Double Cheese", StringComparison.OrdinalIgnoreCase)?.Value<bool>() ?? false;
 
                     HandleToppings(pepperoniSelected, mushroomsSelected, olivesSelected, peppersSelected, doubleCheeseSelected);
-
-
                 }
             }
         }
