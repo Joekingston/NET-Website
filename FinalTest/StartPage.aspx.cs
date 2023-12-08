@@ -34,7 +34,7 @@ namespace FinalTest
         *		This method is automatically called upon and acts as an event handler in the page lifecycle. This method ultimately acts to
         *		perform tasks when a webpage isloaded. In this particular case, we changed this page's validation settings to allow for a custom 
         *		validator.
-        *	PARAMETERS:
+        *	PARAMETERS      :
         *		object sender            :   This is the object that triggered the event for the page to load
         *		EventArgs e              :   This is an object that contains event-specific data
         *	RETURNS			:
@@ -52,7 +52,7 @@ namespace FinalTest
         *		This method is activated when a user clicks the "Start Order" button on our default page for the SET Pizza Shop. If
         *		the username the user has entered was determined to be valid, they will be redirected to the page where they can choose
         *		the toppings for their pizza order.
-        *	PARAMETERS:
+        *	PARAMETERS      :
         *		object sender            :   This is the object that triggered the event for the page to load
         *		EventArgs e              :   This is an object that contains event-specific data
         *	RETURNS			:
@@ -77,7 +77,7 @@ namespace FinalTest
         *		can be used for their duration on the website. This method will go through a series of tests to validate the user input and check 
         *		if their name contained only alphabetic characters and if it was two parts (first AND last name). If the user has input a valid name, 
         *		the page will be deemed valid and session variables will be created for their name. Otherwise, the page will be deemed invalid.
-        *	PARAMETERS:
+        *	PARAMETERS      :
         *		object sender                   :   This is the object that triggered the event for the page to load
         *		ServerValidateEventArgs e       :   This is an object that contains event-specific data
         *	RETURNS			:

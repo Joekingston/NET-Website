@@ -1,4 +1,15 @@
-﻿<%@ Page Title="Menu" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="Final.Menu" %>
+﻿<%-- 
+FILE		    : Menu.aspx
+PROJECT			: PROG 2001 - Final Exam Practical Component
+PROGRAMMERS		: Joey Kingston, Cody Glanville
+FIRST VERSION   : December 03, 2023
+DESCRIPTION		:
+	This file is used in order to hold the logic for creating the menu users will interact with to customize their
+    pizza at the SET Pizza Shop. The HTML elements used regard to separate components that are used to create the 
+    pizza visual that is displayed to the user.
+--%>
+
+<%@ Page Title="Menu" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="Final.Menu" %>
 
 <asp:Content ID="Menu" ContentPlaceHolderID="MainContent" runat="server">
     <div class="content">

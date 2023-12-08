@@ -1,4 +1,15 @@
-﻿<%@ Page Title="Confirmation" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Confirmation.aspx.cs" Inherits="Final.Confirmation" %>
+﻿<%-- 
+FILE		    : Confirmation.aspx
+PROJECT			: PROG 2001 - Final Exam Practical Component
+PROGRAMMERS		: Joey Kingston, Cody Glanville
+FIRST VERSION   : December 03, 2023
+DESCRIPTION		:
+	This file is used in order to hold the logic for creating a confirmation menu that will either allow a user to cancel or
+    submit their pizza order to the SET Pizza Shop. The HTML elements will show the customer their order and present them with
+    two options (cancel or confirm) alongside a description of their pizza order (toppings and price) imitating a receipt.
+--%>
+
+<%@ Page Title="Confirmation" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Confirmation.aspx.cs" Inherits="Final.Confirmation" %>
 
 <asp:Content ID="Confirmation" ContentPlaceHolderID="MainContent" runat="server">
     <div class="content">
@@ -38,8 +49,6 @@
 
             $('#orderDetails').html(orderDetailsHtml);
         });
-
-
 
         //function confirmOrder() {
 
