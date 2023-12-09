@@ -1,7 +1,7 @@
 ﻿/*
 * FILE				: Confirmation.aspx.cs
 * PROJECT			: PROG 2001 - Final Exam Practical Component
-* PROGRAMMERS		: Joey Kingston, Cody Glanville
+* PROGRAMMERS		: Joey Carson, Cody Glanville
 * FIRST VERSION		: December 03, 2023
 * DESCRIPTION		:
 *	This file is used for the server-sided logic used in the confirmation page of the SET Pizza Shop application. The methods 

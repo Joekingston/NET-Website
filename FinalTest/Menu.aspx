@@ -1,7 +1,7 @@
 ﻿<%-- 
 FILE		    : Menu.aspx
 PROJECT			: PROG 2001 - Final Exam Practical Component
-PROGRAMMERS		: Joey Kingston, Cody Glanville
+PROGRAMMERS		: Joey Carson, Cody Glanville
 FIRST VERSION   : December 03, 2023
 DESCRIPTION		:
 	This file is used in order to hold the logic for creating the menu users will interact with to customize their
@@ -386,22 +386,10 @@ DESCRIPTION		:
             }
         });
     });
-    function randomlyCheckBoxes() {
-        $('.cheeseDoubled').toggle(false);
-        $('.green-pepper').toggle(false);
-        $('.olive').toggle(false);
-        $('.mushroom').toggle(false);
-        $('.pep').toggle(false);
-        var checkboxIds = ["Pepperoni", "Mushrooms", "Olives", "Peppers", "DoubleCheese"];
-        var checkboxesToCheck = Math.floor(Math.random() * checkboxIds.length) + 1;
-        checkboxIds = checkboxIds.sort(() => Math.random() - 0.5);
-
-        for (var i = 0; i < checkboxesToCheck; i++) {
-            var checkboxId = checkboxIds[i];
-            document.getElementById(checkboxId).checked = true;
-        }
-        DynamicPrice();
-    }
+    // Name    : SubmitOrder
+    // Purpose : Redirects the user to the next page.
+    // Inputs  : None
+    // Returns : void
     function submitOrder() {
         Response.Redirect("Confirmation.aspx");
         }

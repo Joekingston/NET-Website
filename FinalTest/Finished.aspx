@@ -1,7 +1,7 @@
 ﻿<%-- 
 FILE		    : Finished.aspx
 PROJECT			: PROG 2001 - Final Exam Practical Component
-PROGRAMMERS		: Joey Kingston, Cody Glanville
+PROGRAMMERS		: Joey Carson, Cody Glanville
 FIRST VERSION   : December 03, 2023
 DESCRIPTION		:
 	This file is used in order to display the status of a user's order for the SET Pizza Shop. Depending on the user's choice on the previous

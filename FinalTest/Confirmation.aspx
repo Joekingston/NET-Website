@@ -1,7 +1,7 @@
 ﻿<%-- 
 FILE		    : Confirmation.aspx
 PROJECT			: PROG 2001 - Final Exam Practical Component
-PROGRAMMERS		: Joey Kingston, Cody Glanville
+PROGRAMMERS		: Joey Carson, Cody Glanville
 FIRST VERSION   : December 03, 2023
 DESCRIPTION		:
 	This file is used in order to hold the logic for creating a confirmation menu that will either allow a user to cancel or
@@ -34,6 +34,10 @@ DESCRIPTION		:
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script>
+        // Name    : Start
+        // Purpose : Intializes everything dynamically on start, getting total price and toppings.
+        // Inputs  : None
+        // Returns : void
         $(function Start() {
             var toppingsData = <%= Session["ToppingsData"] %>;
             var totalPrice = <%= Session["TotalPrice"] %>

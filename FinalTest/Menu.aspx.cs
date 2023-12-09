@@ -1,7 +1,7 @@
 ﻿/*
 * FILE				: Menu.aspx.cs
 * PROJECT			: PROG 2001 - Final Exam Practical
-* PROGRAMMERS		: Joey Kingston, Cody Glanville
+* PROGRAMMERS		: Joey Carson, Cody Glanville
 * FIRST VERSION		: December 3, 2023
 * DESCRIPTION		:
 *	This file contains the server-sided logic for the webpage used for selecting pizza toppings in the SET Pizza Shop website.
