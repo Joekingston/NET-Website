@@ -23,6 +23,10 @@
 .Menu {
     text-align:center;
 }
+
+.Menu h2 {
+    font-family: 'Lucida Handwriting';
+}
 /*---Page1 CSS---*/
 #FriendlyTitle{
     font-family: 'Lucida Handwriting';
@@ -923,7 +927,7 @@
 }
 
 #FinalOrderStatus{
-    font-family: 'Lucida Handwriting';
+    font-family: Arial;
     padding-top: 30px;
     padding-bottom: 40px;
 }
