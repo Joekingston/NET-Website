@@ -1,7 +1,7 @@
 ﻿/*
 * FILE				: Finished.aspx.cs
 * PROJECT			: PROG 2001 - Final Exam Practical Component
-* PROGRAMMERS		: Joey Carson, Cody Glanville
+* PROGRAMMERS		: Joey Carson (ID: 8213035, Lab Section: 6), Cody Glanville (ID: 8864645, Lab Section: 3)
 * FIRST VERSION		: December 03, 2023
 * DESCRIPTION		:
 *	This file is used for the server-sided logic for the final web page in the SET Pizza Shop application. At the moment, their is currently

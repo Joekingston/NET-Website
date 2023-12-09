@@ -1,7 +1,7 @@
 ﻿<%-- 
 FILE		    : StartPage.aspx
 PROJECT			: PROG 2001 - Final Exam Practical Component
-PROGRAMMERS		: Joey Carson, Cody Glanville
+PROGRAMMERS		: Joey Carson (ID: 8213035, Lab Section: 6), Cody Glanville (ID: 8864645, Lab Section: 3)
 FIRST VERSION   : December 03, 2023
 DESCRIPTION		:
 	This file contains the HTML elements utilized in order to create our starting page for our final 
@@ -29,7 +29,8 @@ DESCRIPTION		:
                     <asp:TextBox ID="userName" CssClass="EnterName" runat="server"></asp:TextBox>  <!-- Make an input source for the user input -->
                     <asp:Button ID="nameSubmit" CssClass="SubmitName" runat="server" text="Start Order" CausesValidation="true" onClick="ToMenu"/>  <!-- Create a submitting button -->                     
                     <asp:CustomValidator ID="NameValidator" runat="server" ControlToValidate="userName" OnServerValidate="NameValidation"
-                        ValidateEmptyText="true" ErrorMessage="ERROR: Usernames cannot be BLANK or have Numbers and need a FIRST and LAST name"></asp:CustomValidator> <!-- Validator for the name TextBox -->
+                        ValidateEmptyText="true" ErrorMessage="ERROR: Usernames cannot be blank, must be alphabetical, and must contain two parts (first and last)"
+                        CssClass="NameValidator"></asp:CustomValidator> <!-- Validator for the name TextBox -->
                 </div>
             </div>
             <div class="column">

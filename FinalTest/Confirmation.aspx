@@ -1,7 +1,7 @@
 ﻿<%-- 
 FILE		    : Confirmation.aspx
 PROJECT			: PROG 2001 - Final Exam Practical Component
-PROGRAMMERS		: Joey Carson, Cody Glanville
+PROGRAMMERS		: Joey Carson (ID: 8213035, Lab Section: 6), Cody Glanville (ID: 8864645, Lab Section: 3)
 FIRST VERSION   : December 03, 2023
 DESCRIPTION		:
 	This file is used in order to hold the logic for creating a confirmation menu that will either allow a user to cancel or
@@ -53,12 +53,5 @@ DESCRIPTION		:
 
             $('#orderDetails').html(orderDetailsHtml);
         });
-
-        //function confirmOrder() {
-
-        //}
-
-        //function cancelOrder() {
-        //}
     </script>
 </asp:Content>

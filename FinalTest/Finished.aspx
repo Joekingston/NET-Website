@@ -1,7 +1,7 @@
 ﻿<%-- 
 FILE		    : Finished.aspx
 PROJECT			: PROG 2001 - Final Exam Practical Component
-PROGRAMMERS		: Joey Carson, Cody Glanville
+PROGRAMMERS		: Joey Carson (ID: 8213035, Lab Section: 6), Cody Glanville (ID: 8864645, Lab Section: 3)
 FIRST VERSION   : December 03, 2023
 DESCRIPTION		:
 	This file is used in order to display the status of a user's order for the SET Pizza Shop. Depending on the user's choice on the previous
