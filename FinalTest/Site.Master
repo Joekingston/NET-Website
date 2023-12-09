@@ -1,4 +1,15 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Final.SiteMaster" %>
+﻿<%-- 
+FILE		    : Site.Master
+PROJECT			: PROG 2001 - Final Exam Practical Component
+PROGRAMMERS		: Joey Carson (ID: 8213035, Lab Section: 6), Cody Glanville (ID: 8864645, Lab Section: 3)
+FIRST VERSION   : December 03, 2023
+DESCRIPTION		:
+	This file is used as the master styling page to keep our SET Pizza Shops formatting consistent across pages. As such, 
+    the SET Pizza Shop banner will be included on every page alongside the color scheme used for the fonts and background
+    colors.
+--%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Final.SiteMaster" %>
 
 <!DOCTYPE html>
 <html lang="en">
