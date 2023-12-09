@@ -30,8 +30,8 @@ namespace FinalTest
         *	METHOD          : Page_Load(object sender, EventArgs e)
         *	DESCRIPTION		:
         *		This method is automatically called upon and acts as an event handler in the page lifecycle. This method ultimately acts to
-        *		perform tasks when a webpage isloaded. In this particular case, no additional logic was needed in this method relating to 
-        *		any type of validation, etc.
+        *		perform tasks when a webpage is loaded. In this particular case, we check to see what the value of the orderStatus session 
+        *		variable is and depending on its value, the final picture shown to the user will be different (happy/sad).
         *	PARAMETERS      :
         *		object sender            :   This is the object that triggered the event for the page to load
         *		EventArgs e              :   This is an object that contains event-specific data
@@ -40,7 +40,19 @@ namespace FinalTest
         */
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["orderStatus"] != null)
+            {
+                string status = Session["orderStatus"].ToString();
 
+                if (status == "confirmed")                              // Happy Path (Order confirmed)
+                {
+                    FinalPicture.ImageUrl = "./EndPic.png";
+                }
+                else
+                {
+                    FinalPicture.ImageUrl = "./SadPizza.png";           // Otherwise sad pizza :(
+                }
+            }
         }
     }
 }
