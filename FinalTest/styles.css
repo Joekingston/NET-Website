@@ -3,7 +3,7 @@
     font-family: Arial, sans-serif;
     margin: auto;
     width: 80%;
-    min-width: 800px; /* Suppose you want minimum width of 1000px */
+    min-width: 800px; 
 }
 
 .header {
