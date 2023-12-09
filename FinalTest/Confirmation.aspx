@@ -14,7 +14,7 @@ DESCRIPTION		:
 <asp:Content ID="Confirmation" ContentPlaceHolderID="MainContent" runat="server">
     <div class="content">
         <div class="Menu">
-            <h2>Order Confirmation</h2>
+            <h2 class="OrderHeader" >Order Confirmation</h2>
             <h3>Ciao, <%= Session["userName"] %>!</h3>
             <p>Please review your order and confirm everything is correct!</p>
             <div class="receipt">

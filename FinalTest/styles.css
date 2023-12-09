@@ -24,9 +24,6 @@
     text-align:center;
 }
 
-.Menu h2 {
-    font-family: 'Lucida Handwriting';
-}
 /*---Page1 CSS---*/
 #FriendlyTitle{
     font-family: 'Lucida Handwriting';
@@ -80,6 +77,9 @@
 }
 /*---Page2 CSS---*/
 /*Position relative and z-index stop collision issues*/
+.MenuHeader {
+    font-family: 'Lucida Handwriting';
+}
 .checkbox-container > div {
     position: relative;
     display: inline-flex;
@@ -114,6 +114,9 @@
     z-index: 9999999;
 }
 /*---Page3 css---*/
+.OrderHeader {
+    font-family: 'Lucida Handwriting';
+}
 .receipt {
     z-index: 10;
     background-color: #fff;

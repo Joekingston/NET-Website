@@ -14,7 +14,7 @@ DESCRIPTION		:
 <asp:Content ID="Menu" ContentPlaceHolderID="MainContent" runat="server">
     <div class="content">
         <div class="Menu">
-            <h2>Pizza Menu</h2>
+            <h2 class="MenuHeader" >Pizza Menu</h2>
             <h3>Ciao, <%= Session["userName"] %>!</h3>
             <p>At the SET Pizza Shop, you can only order one (1) large pizza with sauce and cheese.</p>
             <div>
