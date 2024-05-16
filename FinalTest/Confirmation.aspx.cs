@@ -56,7 +56,7 @@ namespace Final
         protected void CancelOrder(object sender, EventArgs e)
         {
             Session["orderStatus"] = "cancelled";
-            Response.Redirect("./Finished.aspx");
+            Response.Redirect("Finished.aspx");
         }
 
         /*
@@ -75,7 +75,7 @@ namespace Final
         protected void ConfirmOrder(object send, EventArgs e)
         {
             Session["orderStatus"] = "confirmed";
-            Response.Redirect("./Finished.aspx");
+            Response.Redirect("Finished.aspx");
         }
     }
 }
